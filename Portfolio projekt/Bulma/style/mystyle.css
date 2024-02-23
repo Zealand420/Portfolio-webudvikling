@@ -1,0 +1,33 @@
+.navbar{
+    background-color: #1F1F1F !important;
+}
+.navbar a{
+    color: white;
+}
+
+.columns{
+    background-color: #1F1F1F;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.card-title{
+    color: #1F1F1F;
+    font-size: 22px;
+}
+
+.content p{
+    margin: 0px;
+}
+
+.card-content{
+    padding: 10px;
+}
+
+li{
+    list-style: none;
+}
