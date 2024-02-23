@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="../src/output.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2430132205.js" crossorigin="anonymous"></script>
+</head>
+<!--nav bar-->
+<body class= "bg-gray-950">
+    <nav class="navbar navbar-expand-lg navbar-light bg-mainbg ps-4 pe-4">
+      <a class="navbar-brand text-white	fw-bold fs-1" href="#">Kevins portfolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto fs-5">
+          <li class="nav-item pe-2">
+            <a class="nav-link text-white" href="#">Om mig</a>
+          </li>
+          <li class="nav-item pe-2">
+            <a class="nav-link text-white" href="#">Projekter</a>
+          </li>
+          <li class="nav-item pe-2">
+            <a class="nav-link text-white" href="#">Mini-projekter</a>
+          </li>
+          <li class="nav-item pe-2">
+            <a class="nav-link text-white" href="#">Arbejdet med</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--Om mig sektion-->
+    <div class="">
+        <div class="grid grid-cols-2">
+          <ul class="list-group list-group-flush list-group-item-mainbg">
+            <li class="list-group-item text-white text-lg mt-5 pl-6"><span class="font-bold text-xl">Navn:</span> Kevin Pedersen</li>
+            <li class="list-group-item text-white text-lg mt-5 pl-6"><span class="font-bold text-xl">Alder:</span> 25</li>
+            <li class="list-group-item text-white text-lg mt-5 pl-6"><span class="font-bold text-xl">Status:</span> Studerende</li>
+            <li class="list-group-item text-white text-lg mt-5 pl-6"><span class="font-bold text-xl">Beskæftigelse:</span> Under uddannelse</li>
+            <li class="list-group-item text-white text-lg mt-5 pl-6"><span class="font-bold text-xl">Uddannelse:</span> Multimediedesign & Webudvikling</li>
+          </ul>
+        <div class="">
+        <img src="/Bootstrap/Billeder/lama.jpg" alt="Girl in a jacket" width="400" height="300">
+        </div>
+        </div>
+    </div>
+
+    <!--Grid med cards (Projekter)-->
+        <div class="col-12">
+          <h1 class="text-white text-center mb-4 mt-4 text-4xl font-bold">Projekter</h1>
+        </div>
+        <div class="grid grid-cols-3 p-5">
+            <div class="col-4">
+                <div class="project-card bg-white rounded" style="width: 18rem;">
+                    <img src="/Bootstrap/Billeder/lama.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-2">
+                    <h2 class="card-title text-black font-bold text-2xl mb-4	">Kicki Merkel</h2>
+                    <p class="card-text">Hjemmeside lavet i wordpress til frisør Kicki Merkel, som blevet lavet som en del af et forløb kaldet "pop-up virksomhed" hvor vi havde med rigtige kunder at gøre.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                    <li class="list-group-item p-2 text-2xl"><i class="fa-brands fa-wordpress me-2"></i>Wordpress</li>
+                    <li class="list-group-item p-2 text-2xl"><i class="fa-brands fa-elementor me-2"></i>Elementor</li>
+                    <li class="list-group-item p-2 text-2xl"><i class="fa-solid fa-server me-2"></i>Deployment</li>
+                    </ul>
+                    <div class="text-center">
+                        <button class="bg-emerald-500 text-white font-bold pl-7 pr-7 pt-4 pb-4 mt-5 mb-5 rounded">
+                            Button
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-4">
+                <div class="project-card bg-white rounded" style="width: 18rem;">
+                    <img src="/Bootstrap/Billeder/lama.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-2">
+                    <h2 class="card-title text-black font-bold text-2xl mb-4	">Pakkelada</h2>
+                    <p class="card-text">En app hvor man nemt kan få et overblik over alle sine pakker samlet et sted. Og hvor man har kunne oprette sine egne pakker som blev sendt til databasen.
+                    </p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                    <li class="list-group-item p-2 text-2xl"><i class="fa-brands fa-html5 me-2"></i>HTML, SCSS & JS</li>
+                    <li class="list-group-item p-2 text-2xl"><i class="fa-brands fa-php me-2"></i>PHP & api'er</li>
+                    <li class="list-group-item p-2 text-2xl"><i class="fa-solid fa-database me-2"></i>Databaser</li>
+                    </ul>
+                    <div class="text-center">
+                        <button class="bg-emerald-500 text-white font-bold pl-7 pr-7 pt-4 pb-4 mt-5 mb-5 rounded">
+                            Button
+                        </button>
+                    </div>
+                </div>
+            </div>
+                <div class="col-4">
+                <div class="project-card bg-white rounded" style="width: 18rem;">
+                    <img src="/Bootstrap/Billeder/lama.jpg" class="card-img-top" alt="...">
+                    <div class="card-body p-2">
+                    <h2 class="card-title text-black font-bold text-2xl mb-4	">Abonnementzonen</h2>
+                    <p class="card-text">Appen har til formål at samle alle sine abonnementer i et sted. Her har man mulighed for at tilføje, læse, slette, redigere ved hjælp af C.R.U.D operationer</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                    <li class="list-group-item p-2 text-2xl"><i class="fa-solid fa-code me-2"></i>Ionic & C.R.U.D</li>
+                    <li class="list-group-item p-2 text-2xl"><i class="fa-brands fa-angular me-2"></i>Typescript & Angular</li>
+                    <li class="list-group-item p-2 text-2xl"><i class="fa-solid fa-database me-2"></i>Databaser</li>
+                    </ul>
+                    <div class="text-center">
+                        <button class="bg-emerald-500 text-white font-bold pl-7 pr-7 pt-4 pb-4 mt-5 mb-5 rounded">
+                            Button
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <!--Andre projekter-->
+        <div class="row bg-mainbg grid-gutter-mini-projekter mt-5 p-5">
+            <div class="col-12">
+                <h1 class="text-maintext text-center mb-6 font-bold text-white text-4xl">Mini-projekter</h1>
+            </div>
+            <div class="grid grid-cols-4 gap-4">
+                <div class="col-3">
+                    <div class="project-card bg-white">
+                    <div class="card-body p-2">
+                        <h3 class="card-title text-black font-bold text-2xl mb-4 fs-4 fw-bold">Dans, dans, dans</h3>
+                        <p class="card-text">Fiktivt projekt hvor vi har skulle lave en hjemmeside for en danseskole</p>
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item p-1 text-xl"><i class="fa-solid fa-list-check mr-2"></i>Projektplanlægning</li>
+                        <li class="list-group-item p-1 text-xltext-xl"><i class="fa-brands fa-css3-alt mr-2"></i>HTML, CSS & JS</li>
+                        <li class="list-group-item p-1 text-xl"><i class="fa-solid fa-pen me-2"></i>Design</li>
+                        </ul>
+                        <div class="text-center">
+                            <button class="bg-emerald-500 text-white font-bold pl-7 pr-7 pt-4 pb-4 mt-5 mb-5 rounded">
+                                Button
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="project-card bg-white">
+                    <div class="card-body p-2">
+                        <h3 class="card-title text-black font-bold text-2xl mb-4 fs-4 fw-bold">Musik video</h3>
+                        <p class="card-text">Musik video lavet for UkuleleHanne, som en del af mit MMD uddannelse</p>
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item p-1 text-xl"><i class="fa-solid fa-camera mr-2"></i>Kamera & udstyr</li>
+                        <li class="list-group-item p-1 text-xl"><i class="fa-regular fa-pen-to-square mr-2"></i>Redigering</li>
+                        <li class="list-group-item p-1 text-xl"><i class="fa-solid fa-a mr-2"></i>Adobe programmer</li>
+                        </ul>
+                        <div class="text-center">
+                            <button class="bg-emerald-500 text-white font-bold pl-7 pr-7 pt-4 pb-4 mt-5 mb-5 rounded">
+                                Button
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="project-card bg-white">
+                    <div class="card-body p-2">
+                        <h3 class="card-title text-black font-bold text-2xl mb-4	 fs-4 fw-bold">Generative art</h3>
+                        <p class="card-text">Oprettelser af wordpress webshop med woocommerce.</p>
+                        <br>
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item p-1 text-xl"><i class="fa-solid fa-basket-shopping mr-2"></i>Webshop</li>
+                        <li class="list-group-item p-1 text-xl"><i class="fa-solid fa-robot mr-2"></i>AI</li>
+                        <li class="list-group-item p-1 text-xl"><i class="fa-regular fa-pen-to-square mr-2"></i>Design</li>
+                        </ul>
+                        <div class="text-center">
+                            <button class="bg-emerald-500 text-white font-bold pl-7 pr-7 pt-4 pb-4 mt-5 mb-5 rounded">
+                                Button
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="project-card bg-white">
+                    <div class="card-body p-2">
+                        <h3 class="card-title text-black font-bold text-2xl mb-4	 fs-4 fw-bold">Login form</h3>
+                        <p class="card-text">Lavet login og oprettelser form til en andes gruppes projekt</p>
+                        <ul class="list-group list-group-flush">
+                        <li class="list-group-item p-1 text-xl"><i class="fa-solid fa-database mr-2"></i>C.R.U.D & Api</li>
+                        <li class="list-group-item p-1 text-xl"><i class="fa-brands fa-angular mr-2"></i>Ionic & Angular</li>
+                        <li class="list-group-item p-1 text-xl"><i class="fa-solid fa-database mr-2"></i>Databaser</li>
+                        </ul>
+                        <div class="text-center">
+                            <button class="bg-emerald-500 text-white font-bold pl-7 pr-7 pt-4 pb-4 mt-5 mb-5 rounded">
+                                Button
+                            </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      <!--Erfaring-->
+        <div class="row bg-mainbg mt-5 mb-3 p-3">
+            <div class="col-12">
+            <h1 class="text-maintext text-center text-white mb-4 text-4xl font-bold">Arbejdet med</h1>
+            </div>
+            <div class="grid grid-cols-6 mt-8">
+                <div class="col-2">
+                <ul class="list-group list-group-flush list-group-item-mainbg text-maintext">
+                    <li class="list-group-item mx-auto p-0 m-0">
+                        <i class="fa-brands fa-html5 text-white fa-5x"></i>
+                    </li>
+                </ul>
+                </div>
+
+                <div class="col-2">
+                <ul class="list-group list-group-flush list-group-item-mainbg text-maintext">
+                    <li class="list-group-item mx-auto p-0 m-0">
+                        <i class="fa-brands fa-js text-white fa-5x"></i>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-2">
+                <ul class="list-group list-group-flush list-group-item-mainbg text-maintext">
+                    <li class="list-group-item mx-auto p-0 m-0">
+                        <i class="fa-brands fa-sass text-white fa-5x"></i>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-2">
+                <ul class="list-group list-group-flush list-group-item-mainbg text-maintext">
+                    <li class="list-group-item mx-auto p-0 m-0">
+                        <i class="fa-brands fa-bootstrap text-white fa-5x"></i>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-2">
+                <ul class="list-group list-group-flush list-group-item-mainbg text-maintext">
+                    <li class="list-group-item mx-auto p-0 m-0">
+                        <i class="fa-solid fa-database text-white fa-5x"></i>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-2">
+                <ul class="list-group list-group-flush list-group-item-mainbg text-maintext">
+                    <li class="list-group-item mx-auto p-0 m-0">
+                        <i class="fa-brands fa-php text-white fa-5x"></i>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-2 mt-4">
+                <ul class="list-group list-group-flush list-group-item-mainbg text-maintext">
+                    <li class="list-group-item mx-auto p-0 m-0">
+                        <i class="fa-brands fa-wordpress text-white fa-5x mt-4"></i>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-2 mt-4">
+                <ul class="list-group list-group-flush list-group-item-mainbg text-maintext">
+                    <li class="list-group-item mx-auto p-0 m-0">
+                    <p class=" text-white font-bold text-3xl mt-4">Ionic 5+</p>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-2 mt-4">
+                <ul class="list-group list-group-flush list-group-item-mainbg text-maintext">
+                    <li class="list-group-item mx-auto p-0 m-0">
+                        <i class="fa-brands fa-angular text-white fa-5x mt-4"></i>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-2 mt-4">
+                <ul class="list-group list-group-flush list-group-item-mainbg text-maintext">
+                    <li class="list-group-item mx-auto p-0 m-0">
+                    <p class="text-white font-bold text-3xl mt-4">Bulma</p>
+                    </li>
+                </ul>
+                </div>
+                <div class="col-2 mt-4">
+                <ul class="list-group list-group-flush list-group-item-mainbg text-maintext">
+                    <li class="list-group-item mx-auto p-0 m-0">
+                    <p class=" text-white font-bold text-3xl mt-4">Tailwind</p>
+                </ul>
+                </div>
+                <div class="col-2 mt-4">
+                <ul class="list-group list-group-flush list-group-item-mainbg text-maintext">
+                    <li class="list-group-item mx-auto p-0 m-0">
+                    <p class="text-white font-bold text-3xl mt-4">Typescript</p>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+  </body>
+</html>
